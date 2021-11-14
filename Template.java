@@ -7,9 +7,11 @@ import java.util.Collections;
 import java.util.StringTokenizer;
 
 public class Template {
+	static FastScanner in;
+	static PrintWriter out;
 	public static void main(String[] args) {
-		FastScanner in = new FastScanner();
-		PrintWriter out = new PrintWriter(System.out);
+		in = new FastScanner();
+		out = new PrintWriter(System.out);
 		out.println();
 		out.close();
 	}
